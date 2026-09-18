@@ -1,6 +1,6 @@
 # OmaKnife
 
-During the age of AI agent, "ARE YOU OK?" :)
+In the era of AI agents, "Are you OK?" :)
 
 **OmaKnife** is a fast, lightweight desktop **AI agent deck** engineered to orchestrate up to four autonomous and interactive AI coding agents simultaneously on your local projects. It runs multiple AI coding CLIs side-by-side in hardware-accelerated interactive PTY terminals, paired with a floating pop-up Monaco code editor, live AI provider quota telemetry, preloaded SWE skills injection, first-run CLI diagnostics, and centralized multi-provider API key management.
 
