@@ -24,7 +24,7 @@ Built with **Rust**, **Tauri v2**, **React 19**, **xterm.js**, and **Monaco Edit
 
 ## The Four-Agent Control Deck Model
 
-In `omaknife`, your four terminal slots form a high-throughput multi-agent software engineering team directly inside your local project:
+In `OmaKnife`, your four terminal slots form a high-throughput multi-agent software engineering team directly inside your local project:
 
 ```text
 ┌───────────────────────────────────────┬───────────────────────────────────────┐
@@ -44,11 +44,11 @@ All 4 agents operate directly within your selected local workspace folder, givin
 
 ---
 
-## Why omaknife?
+## Why OmaKnife?
 
 AI coding CLIs are exceptionally capable, but running them across separate terminal windows or browser tabs creates friction: you lose sight of which agent is doing what, terminal buffers are cumbersome to manage, and switching between tools disrupts focus.
 
-`omaknife` solves this with a purpose-built **AI agent deck**:
+`OmaKnife` solves this with a purpose-built **AI agent deck**:
 1. **Parallel Execution**: Four interactive PTY sessions run side-by-side with high-throughput binary streaming (8ms / 64KiB coalescing), in-memory scrollback ring buffers (~2MB per slot), and clean process group (`pgrp`) lifecycle teardown.
 2. **Zero-Friction Local Workspace**: Operates directly on any selected project directory, avoiding heavy worktree fanout and allowing agents to execute git and shell commands naturally in their interactive PTYs.
 3. **Integrated File Editing**: Inspect and tweak code immediately in a floating Monaco editor or launch your favorite external editor (`↗ Open`) without resizing or disrupting the terminal grid.
